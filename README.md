@@ -21,3 +21,6 @@ No installation required. Simply download the script to your preferred directory
 ## Usage
 
 1. **Onboard a new user:**
+.\onboarding.ps1 -username johndoe -fullname "John Doe" -action onboard
+  - You will be prompted to enter a password for the new user.
+.\onboarding.ps1 -username johndoe -action offboard
